@@ -2,6 +2,7 @@ import { LiaFacebookSquare } from "react-icons/lia";
 import { FiTwitter } from "react-icons/fi";
 import { FaInstagram } from "react-icons/fa";
 import ContentPage from "./components/ContentPage/ContentPage";
+import Categories from "./components/Categories/Categories";
 
 function App() {
 return (
@@ -68,8 +69,12 @@ return (
         </div>
       </header>
 
-      <section>
+      <section className="">
         <ContentPage />
+      </section>
+
+      <section className="pt-40 px-20">
+        <Categories />
       </section>
     </div>
   )

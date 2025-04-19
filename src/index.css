@@ -8,7 +8,8 @@
     --font-lobster: 'Lobster', sans-serif;
     --font-inter: 'Inter', sans-serif;
     --color-a: #E7FAFE;
-    --shadow-1: 15px 15px 15px 5px rgba(0, 0, 0, 0.05);  
+    --shadow-5x1: 15px 15px 15px 5px rgba(0, 0, 0, 0.05);  
+    --drop-shadow-3xl: 0 35px 35px rgba(0, 0, 0, 0.35);
     --radius-5xl: 50px; 
                           
 }
