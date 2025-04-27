@@ -3,6 +3,7 @@ import { FiTwitter } from "react-icons/fi";
 import { FaInstagram } from "react-icons/fa";
 import ContentPage from "./components/ContentPage/ContentPage";
 import Categories from "./components/Categories/Categories";
+import Recipes from "./components/Recipes/Recipes";
 
 function App() {
 return (
@@ -75,6 +76,10 @@ return (
 
       <section className="pt-40 px-20">
         <Categories />
+      </section>
+
+      <section className="pt-44 px-20">
+        <Recipes />
       </section>
     </div>
   )
