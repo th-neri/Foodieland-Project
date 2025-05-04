@@ -4,6 +4,12 @@ import { GiKnifeFork } from "react-icons/gi";
 function Recipes() {
     return (
         <div className="">
+              <div className="pt-44 pb-24 flex-col items-center">
+                  <h1 className="flex justify-center font-inter font-semibold text-5xl pb-6">Simple and tasty recipes</h1>
+                  <span className="flex justify-center font-inter font-normal text-base text-black/60">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem commodi at alias. Laboriosam exercitationem</span>
+                  <span className="flex justify-center font-inter font-normal text-base text-black/60">magni voluptates corporis, consequatur dolorum dignissimos.</span>
+              </div>
+
               <div className="pb-10 flex items-center justify-center gap-10">
                 <a href="#">
                 <div className="bg-a w-[400px] h-[434px] pt-4 px-4 rounded-3xl">
@@ -94,7 +100,7 @@ function Recipes() {
                 </div>
                 </a>  
                 <div className="">
-                    <img className="flex" src="./src/assets/poster.png" alt="" />
+                    <img className="flex min-w-[400px] min-h-[434px]" src="./src/assets/poster.png" alt="" />
                 </div>
               </div>
 
