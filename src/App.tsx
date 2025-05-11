@@ -6,6 +6,7 @@ import Categories from "./components/Categories/Categories";
 import Recipes from "./components/Recipes/Recipes";
 import Advertisement from "./components/Advertisement/Advertisement";
 import IGPosts from "./components/IGPosts/IGPosts";
+import MoreRecipes from "./components/MoreRecipes/MoreRecipes";
 
 function App() {
 return (
@@ -90,6 +91,10 @@ return (
 
       <section className="pt-40">
         <IGPosts />
+      </section>
+
+      <section className="pt-40 px-20">
+        <MoreRecipes />
       </section>
     </div>
   )

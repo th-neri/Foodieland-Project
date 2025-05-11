@@ -60,9 +60,7 @@ function Recipes() {
                         </div>
                     </div>
                 </div>
-                </a>
-
-                
+                </a>        
               </div>
 
               <div className="pb-10 flex items-center justify-center gap-10">
